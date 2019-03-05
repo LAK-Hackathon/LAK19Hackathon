@@ -1,7 +1,7 @@
 {  
    "description":{  
       "object_id":"1",
-      "type":"lab",
+      "type":"course",
       "learning_objectives":[  
          "List and explain the fundamental concepts of a relational database system.",
          "Utilize a wide range of features available in a DBMS package.", 
