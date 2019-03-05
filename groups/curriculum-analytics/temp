@@ -1,0 +1,26 @@
+1.3 Data Fundamentals
+
+Skills:
+a. Apply data analysis and data modelling techniques, to design data structures based on business requirements
+b. Use at least one conceptual data modelling technique (such as entity-relationship modelling) to capture the information requirements for an enterprise
+domain.
+c. Implement a database system using a mainstream database product such as Oracle or SQL.
+d. Translate object and data models into appropriate database schemas within design constraints
+e. Evaluate potential data solutions to meet requirements
+f. Design high-quality relational databases.
+g. Use the data definition, data manipulation, and data control language components of SQL in the context of one widely used implementation of the language.
+h. Perform simple database administration tasks.
+
+
+Knowledge and understanding:
+a. Understand the role of databases and database management systems in managing organisational data and information.
+b. Understand the historical development of database management systems and logical data models.
+c. Understand the basics of how data is physically stored and accessed.
+d. Understand the fundamentals of the basic file organisation techniques.
+e. Understand the purpose and principles of normalizing a relational database structure.
+f. Understand the concept of database transaction and apply it appropriately to an application context.
+g. Understand the basic mechanisms for accessing relational databases from various types of application development environments.
+h. Understand the role of databases and database management systems in the context of enterprise systems.
+i. Understand the key principles of data security and identify data security risk and violations in data management system design.
+j. Understand the core concepts of data quality and their application in an organisational context.
+k. Understand what is meant by data warehousing and data mining.
