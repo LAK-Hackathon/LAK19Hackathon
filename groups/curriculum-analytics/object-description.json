@@ -1,7 +1,8 @@
 {  
+   "object_id":"1",
    "description":{  
-      "object_id":"1",
-      "type":"course",
+       "type":"course",
+      "name" : "Database Fundamentals"
       "learning_objectives":[  
          "List and explain the fundamental concepts of a relational database system.",
          "Utilize a wide range of features available in a DBMS package.", 
@@ -13,4 +14,23 @@
 
       ]
    }
+   "curriculum_objects": [
+      {
+         "object_id":"2",
+         "description": {
+            "type": "unit",
+            "name" : "Fundamental Concepts of a relational database system"
+      
+            "learning_objectives": [ "List and explain the fundamental concepts of a relational database system."]
+            "curriculum_objects": [
+               { 
+                  "object_id":"3",
+                  "description": {
+                     "type": "lecture" ,
+                     "name": "Fundamental Concepts of a relational database system"
+                  }
+               }
+         }
+      }
+   ]
 }
