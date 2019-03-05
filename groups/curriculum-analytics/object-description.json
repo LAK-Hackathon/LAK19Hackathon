@@ -79,7 +79,49 @@
                     "Utilize a wide range of features available in a DBMS package."
                 ],
                 "curriculum_objects": [
-                    {}
+                    {
+                        "object_id": "6",
+                        "description": {
+                            "type": "lecture",
+                            "duration": "P90M",
+                            "active": false,
+                            "digital": false,
+                            "group": false,
+                            "scheduled": true,
+                            "optional": true,
+                            "core": true,
+                            "name": "Intro to DBMS packages",
+                            "learning_objectives": [
+                                "Utilize a wide range of features available in a DBMS package."
+                            ]
+                        },
+                        "measurements": {
+                            "cohort_percent": 90,
+                            "avg_time_spent": "P90M"
+                        }
+                        
+                    },
+                    {
+                        "object_id": "7",
+                        "description": {
+                            "type": "lab",
+                            "active": true,
+                            "digital": true,
+                            "group": true,
+                            "scheduled": true,
+                            "optional": true,
+                            "core": true,
+                            "name": "RDBMA Lab",
+                            "summative": false,
+                            "learning_objectives": [
+                                "Utilize a wide range of features available in a DBMS package."
+                            ]
+                        },
+                        "measurements": {
+                            "cohort_percent": 80,
+                            "avg_time_spent": "P60M"
+                        }
+                    }
                 ]
             }
         }       
