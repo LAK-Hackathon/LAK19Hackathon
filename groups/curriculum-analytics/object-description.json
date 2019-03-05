@@ -1,70 +1,75 @@
-{  
-   "object_id":"1",
-   "description":{  
-       "type":"course",
-      "name" : "Database Fundamentals",
-      "learning_objectives":[  
-         "List and explain the fundamental concepts of a relational database system.",
-         "Utilize a wide range of features available in a DBMS package.", 
-         "Analyze database requirements and determine the entities involved in the system and their relationship to one another.",
-         "Develop the logical design of the database using data modeling concepts such as entity-relationship diagrams.",
-         "Create a relational database using a relational database package.",
-         "Learn the fundamentals of SQL.",
-         "Assess the quality and ease of use of data modeling and diagramming tools."
-
-      ]
-   },
-   "curriculum_objects": [
-      {
-         "object_id":"2",
-         "description": {
-            "type": "unit",
-            "name" : "Fundamental Concepts of a relational database system",
-      
-            "learning_objectives": [ "List and explain the fundamental concepts of a relational database system."],
-            "curriculum_objects": [
-               { 
-                  "object_id":"3",
-                  "description": {
-                     "type": "lecture" ,
-                     "active" : false,
-                     "digital" : false,
-                     "group": false,
-                     "scheduled": true,
-                     "optional": true,
-                     "core": true,
-                     "name": "Fundamental Concepts of a relational database system",
-                     "learning_objectives": [ "List and explain the fundamental concepts of a relational database system."]
-                  }
-               },
-               {
-                  "object_id": "4",
-                  "description" : {
-                      "type": "quiz" ,
-                     "active" : true,
-                     "digital" : true,
-                     "group": false,
-                     "scheduled": false,
-                     "optional": false,
-                     "core": true,
-                     "name": "Fundamentals quiz",
-                     "learning_objectives": [ "List and explain the fundamental concepts of a relational database system."],
-                  }
-               }
-            ]
-         },
-         {
-         "object_id":"5",
+{
+    "object_id": "1",
+    "description": {
+        "type": "course",
+        "name": "Database Fundamentals",
+        "learning_objectives": [
+            "List and explain the fundamental concepts of a relational database system.",
+            "Utilize a wide range of features available in a DBMS package.",
+            "Analyze database requirements and determine the entities involved in the system and their relationship to one another.",
+            "Develop the logical design of the database using data modeling concepts such as entity-relationship diagrams.",
+            "Create a relational database using a relational database package.",
+            "Learn the fundamentals of SQL.",
+            "Assess the quality and ease of use of data modeling and diagramming tools."
+        ]
+    },
+    "curriculum_objects": [
+        {
+            "object_id": "2",
             "description": {
-               "type": "unit",
-               "name" : "Intro to DBMS packages",
-               "learning_objectives":["Utilize a wide range of features available in a DBMS package."]
+                "type": "unit",
+                "name": "Fundamental Concepts of a relational database system",
+                "learning_objectives": [
+                    "List and explain the fundamental concepts of a relational database system."
+                ],
                 "curriculum_objects": [
-                     { }
+                    {
+                        "object_id": "3",
+                        "description": {
+                            "type": "lecture",
+                            "active": false,
+                            "digital": false,
+                            "group": false,
+                            "scheduled": true,
+                            "optional": true,
+                            "core": true,
+                            "name": "Fundamental Concepts of a relational database system",
+                            "learning_objectives": [
+                                "List and explain the fundamental concepts of a relational database system."
+                            ]
+                        }
+                    },
+                    {
+                        "object_id": "4",
+                        "description": {
+                            "type": "quiz",
+                            "active": true,
+                            "digital": true,
+                            "group": false,
+                            "scheduled": false,
+                            "optional": false,
+                            "core": true,
+                            "name": "Fundamentals quiz",
+                            "learning_objectives": [
+                                "List and explain the fundamental concepts of a relational database system."
+                            ]
+                        }
+                    }
                 ]
             }
-         }
-        
-      }
-   ]
+        },
+        {
+            "object_id": "5",
+            "description": {
+                "type": "unit",
+                "name": "Intro to DBMS packages",
+                "learning_objectives": [
+                    "Utilize a wide range of features available in a DBMS package."
+                ],
+                "curriculum_objects": [
+                    {}
+                ]
+            }
+        }       
+    ]
 }
