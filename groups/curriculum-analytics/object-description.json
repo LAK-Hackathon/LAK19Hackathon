@@ -27,6 +27,7 @@
                         "object_id": "3",
                         "description": {
                             "type": "lecture",
+                            "duration": "P90M",
                             "active": false,
                             "digital": false,
                             "group": false,
@@ -37,7 +38,12 @@
                             "learning_objectives": [
                                 "List and explain the fundamental concepts of a relational database system."
                             ]
+                        },
+                        "measurements": {
+                            "cohort_percent": 90,
+                            "avg_time_spent": "P90M"
                         }
+                        
                     },
                     {
                         "object_id": "4",
@@ -50,9 +56,15 @@
                             "optional": false,
                             "core": true,
                             "name": "Fundamentals quiz",
+                            "summative": true,
+                            "weight": 0.05,
                             "learning_objectives": [
                                 "List and explain the fundamental concepts of a relational database system."
                             ]
+                        },
+                        "measurements": {
+                            "cohort_percent": 100,
+                            "avg_time_spent": "P30M"
                         }
                     }
                 ]
