@@ -27,7 +27,26 @@
                   "object_id":"3",
                   "description": {
                      "type": "lecture" ,
+                     "active" : false,
+                     "digital" : false,
+                     "group": false,
+                     "scheduled": true,
+                     "optional": true,
+                     "core": true,
                      "name": "Fundamental Concepts of a relational database system"
+                  }
+               },
+               {
+                  "object_id": "4",
+                  "description" : {
+                      "type": "quiz" ,
+                     "active" : true,
+                     "digital" : true,
+                     "group": false,
+                     "scheduled": false,
+                     "optional": false,
+                     "core": true,
+                     "name": "Fundamentals quiz"
                   }
                }
          }
