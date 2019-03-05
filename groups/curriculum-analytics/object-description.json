@@ -33,7 +33,8 @@
                      "scheduled": true,
                      "optional": true,
                      "core": true,
-                     "name": "Fundamental Concepts of a relational database system"
+                     "name": "Fundamental Concepts of a relational database system",
+                     "learning_objectives": [ "List and explain the fundamental concepts of a relational database system."]
                   }
                },
                {
@@ -46,10 +47,24 @@
                      "scheduled": false,
                      "optional": false,
                      "core": true,
-                     "name": "Fundamentals quiz"
+                     "name": "Fundamentals quiz",
+                     "learning_objectives": [ "List and explain the fundamental concepts of a relational database system."],
                   }
                }
+            ]
+         },
+         {
+         "object_id":"5",
+            "description": {
+               "type": "unit",
+               "name" : "Intro to DBMS packages",
+               "learning_objectives":["Utilize a wide range of features available in a DBMS package."]
+                "curriculum_objects": [
+                     { }
+                ]
+            }
          }
+        
       }
    ]
 }
