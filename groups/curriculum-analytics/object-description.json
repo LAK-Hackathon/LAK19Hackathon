@@ -106,7 +106,7 @@
                         "description": {
                             "type": "lab",
                             "active": true,
-                            "digital": true,
+                            "digital": false,
                             "group": true,
                             "scheduled": true,
                             "optional": true,
@@ -124,6 +124,141 @@
                     }
                 ]
             }
-        }       
+            
+        },
+        {
+            "object_id": "8",
+            "description": {
+                "type": "unit",
+                "name": "Database Entities",
+                "learning_objectives": [
+                    "Analyze database requirements and determine the entities involved in the system and their relationship to one another."
+                ],
+                "curriculum_objects": [
+                    {
+                        "object_id": "9",
+                        "description": {
+                            "type": "lecture",
+                            "duration": "P90M",
+                            "active": false,
+                            "digital": false,
+                            "group": false,
+                            "scheduled": true,
+                            "optional": true,
+                            "core": true,
+                            "name": "Database Entities",
+                            "learning_objectives": [
+                                "Analyze database requirements and determine the entities involved in the system and their relationship to one another."                                
+                            ]
+                        },
+                        "measurements": {
+                            "cohort_percent": 90,
+                            "avg_time_spent": "P90M"
+                        }
+                        
+                    },
+                    {
+                        "object_id": "10",
+                        "description": {
+                            "type": "activity",
+                            "active": true,
+                            "digital": false,
+                            "group": false,
+                            "scheduled": false,
+                            "optional": true,
+                            "core": true,
+                            "name": "Requirement/Entity mapping activity",
+                            "summative": false,
+                            "learning_objectives": [
+                                "Analyze database requirements and determine the entities involved in the system and their relationship to one another."                                
+                            ]
+                        },
+                        "measurements": {
+                            "cohort_percent": 80,
+                            "avg_time_spent": "P60M"
+                        }
+                    }
+                ]
+            },
+            
+        },
+        {
+            "object_id": "11",
+            "description": {
+                "type": "unit",
+                "name": "Database Relationships",
+                "learning_objectives": [
+                    "Develop the logical design of the database using data modeling concepts such as entity-relationship diagrams."
+                ],
+                "curriculum_objects": [
+                    {
+                        "object_id": "12",
+                        "description": {
+                            "type": "lecture",
+                            "duration": "P90M",
+                            "active": false,
+                            "digital": false,
+                            "group": false,
+                            "scheduled": true,
+                            "optional": true,
+                            "core": true,
+                            "name": "Database Relationships",
+                            "learning_objectives": [
+                                "Develop the logical design of the database using data modeling concepts such as entity-relationship diagrams."
+                            ]
+                        },
+                        "measurements": {
+                            "cohort_percent": 90,
+                            "avg_time_spent": "P90M"
+                        }
+                        
+                    },
+                    {
+                        "object_id": "13",
+                        "description": {
+                            "type": "assignment",
+                            "active": true,
+                            "digital": true,
+                            "group": false,
+                            "scheduled": false,
+                            "optional": false,
+                            "core": true,
+                            "name": "Create Database from requirements",
+                            "summative": true,
+                            "weight": 0.15,
+                            "learning_objectives": [
+                                "Develop the logical design of the database using data modeling concepts such as entity-relationship diagrams.",
+                                "Analyze database requirements and determine the entities involved in the system and their relationship to one another."                                
+                            ]
+                        },
+                        "measurements": {
+                            "cohort_percent": 100,
+                            "avg_time_spent": "P60M"
+                        }
+                    }
+                ]
+            }  
+        },
+        {
+            "object_id": "14",
+            "description": {
+                "type": "assessment",
+                "name": "midterm",
+                "active": true,
+                "digital": false,
+                "group": false,
+                "scheduled": true,
+                "optional": false,
+                "core": true,
+                "summative": true,
+                "weight": 0.20,
+                "learning_objectives": [
+                    "List and explain the fundamental concepts of a relational database system.",
+                    "Utilize a wide range of features available in a DBMS package.",
+                    "Analyze database requirements and determine the entities involved in the system and their relationship to one another."
+                ]
+            }
+        }
+
     ]
 }
