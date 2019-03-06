@@ -24,6 +24,10 @@
       "student_arrive_time",
       "student_leave_time"
    ],
+   "related_data":[  
+      "course.cohort_percent_attendance",
+      "course_mark"
+   ],
    "actions":[  
       {  
          "action_definition":{  
@@ -36,9 +40,8 @@
             ],
             "intervention":"stress importance of attending"
          }
-      }
-     ,
-     {  
+      },
+      {  
          "action_definition":{  
             "measure":"cohort_percent_attendance",
             "calculation":"<",
@@ -46,7 +49,7 @@
                {  
                   "question":"Are the lectures compelling enough?"
                },
-              {  
+               {  
                   "question":"Are their timetabling conflicts?"
                }
             ],
