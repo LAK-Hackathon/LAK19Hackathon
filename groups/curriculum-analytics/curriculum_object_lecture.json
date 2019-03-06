@@ -1,1 +1,57 @@
-
+{  
+   "object_id":"3",
+   "description":{  
+      "type":"lecture",
+      "duration":"P90M",
+      "active":false,
+      "digital":false,
+      "group":false,
+      "scheduled":true,
+      "optional":true,
+      "core":true,
+      "name":"Fundamental Concepts of a relational database system",
+      "learning_objectives":[  
+         "List and explain the fundamental concepts of a relational database system."
+      ]
+   },
+   "measurements":{  
+      "cohort_percent_attendance":90,
+      "avg_time_spent":"P90M",
+      "attendance_drop":10
+   },
+   "activity_data":[  
+      "student_attended",
+      "student_arrive_time",
+      "student_leave_time"
+   ],
+   "actions":[  
+      {  
+         "action_definition":{  
+            "measure":"attendance_drop",
+            "calculation":">",
+            "questions":[  
+               {  
+                  "question":"Is there an exam on?"
+               }
+            ],
+            "intervention":"stress importance of attending"
+         }
+      }
+     ,
+     {  
+         "action_definition":{  
+            "measure":"cohort_percent_attendance",
+            "calculation":"<",
+            "questions":[  
+               {  
+                  "question":"Are the lectures compelling enough?"
+               },
+              {  
+                  "question":"Are their timetabling conflicts?"
+               }
+            ],
+            "intervention":"Review student feedback"
+         }
+      }
+   ]
+}
