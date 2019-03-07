@@ -14,10 +14,12 @@
          "List and explain the fundamental concepts of a relational database system."
       ]
    },
-   "measurements":{  
-      "cohort_percent_attendance":90,
-      "avg_time_spent":"P90M",
-      "attendance_drop":10
+   "measurements":{ 
+      [
+      "cohort_percent_attendance",
+      "avg_time_spent",
+      "attendance_drop"
+      ]
    },
    "activity_data":[  
       "student_attended",
