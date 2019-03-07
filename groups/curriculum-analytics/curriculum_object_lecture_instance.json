@@ -1,0 +1,17 @@
+{  
+   "object_id":"3",
+   "curriculum_object_id":3",
+   "description":{
+      "title":"Semester 1 Intro to Databases Group 1",
+      "start_time":"2019-03-03T10:00:00",
+      "end_time":"2019-03-03T11:00:00",
+      "cohort_size":"50"
+   },
+   "measurement_values":{ 
+      [
+      "cohort_percent_attendance":90,
+      "avg_time_spent":1H,
+      "attendance_drop":10
+      ]
+   }
+}
