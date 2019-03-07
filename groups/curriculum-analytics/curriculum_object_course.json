@@ -2,6 +2,13 @@
     "curriculum_object_id": "COURSE1",
     "description": {
         "type": "course",
+      "duration":"P90M",
+      "active":false,
+      "digital":false,
+      "group":false,
+      "scheduled":true,
+      "optional":true,
+      "core":true,
         "name": "Database Fundamentals",
         "learning_objectives": [
             "List and explain the fundamental concepts of a relational database system.",
@@ -13,6 +20,35 @@
             "Assess the quality and ease of use of data modeling and diagramming tools."
         ]
     },
-    "curriculum_objects": ["LEC1","LEC2","READIING1","LAB1","LAB2","LECT3","EXAM1"]
-  
+    "curriculum_objects": ["LEC1","LEC2","READIING1","LAB1","LAB2","LECT3","EXAM1"],
+    
+   "measurements":
+      [
+      "pass_rate",
+      "student_satisfaction",
+      ]
+   ,
+   "activity_data":[  
+      "student_results",
+      "student_satisifacton",
+   ],
+   "related_data":[  
+      "course.student_satisifaction",
+      "course_mark"
+   ],
+   "actions":[  
+      {  
+         "action_definition":{  
+            "measure":"student_results",
+            "calculation":"<",
+            "questions":[  
+               {  
+                  "question":"Are the prereqs wrong?"
+               }
+            ],
+            "intervention":"Change prereqs"
+         }
+      }
+   ]
+}
 }
