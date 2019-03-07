@@ -1,50 +1,50 @@
 {
-    "curriculum_object_id": "COURSE1",
-    "description": {
-       "type": "course",
-      "duration":"P10W",
-      "optional":true,
-      "core":true,
-       "name": "Database Fundamentals",
-       "learning_objectives": [
-            "List and explain the fundamental concepts of a relational database system.",
-            "Utilize a wide range of features available in a DBMS package.",
-            "Analyze database requirements and determine the entities involved in the system and their relationship to one another.",
-            "Develop the logical design of the database using data modeling concepts such as entity-relationship diagrams.",
-            "Create a relational database using a relational database package.",
-            "Learn the fundamentals of SQL.",
-            "Assess the quality and ease of use of data modeling and diagramming tools."
-        ]
-    },
-    "curriculum_objects": ["LEC1","LEC2","READIING1","LAB1","LAB2","LECT3","EXAM1"],
-    
-   "measurements":
-      [
-      "pass_rate",
-      "student_satisfaction",
-      ]
-   ,
-   "activity_data":[  
-      "student_results",
-      "student_satisifacton",
-   ],
-   "related_data":[  
-      "course.student_satisifaction",
-      "course_mark"
-   ],
-   "actions":[  
-      {  
-         "action_definition":{  
-            "measure":"student_results",
-            "calculation":"<",
-            "questions":[  
-               {  
-                  "question":"Are the prereqs wrong?"
-               }
-            ],
-            "intervention":"Change prereqs"
-         }
+  "curriculum_object_id": "COURSE1",
+  "description": {
+    "type": "course",
+    "duration":"P10W",
+    "optional":true,
+    "core":true,
+    "name": "Database Fundamentals",
+    "learning_objectives": [
+      "List and explain the fundamental concepts of a relational database system.",
+      "Utilize a wide range of features available in a DBMS package.",
+      "Analyze database requirements and determine the entities involved in the system and their relationship to one another.",
+      "Develop the logical design of the database using data modeling concepts such as entity-relationship diagrams.",
+      "Create a relational database using a relational database package.",
+      "Learn the fundamentals of SQL.",
+      "Assess the quality and ease of use of data modeling and diagramming tools."
+    ]
+  },
+  "curriculum_objects": ["LEC1","LEC2","READIING1","LAB1","LAB2","LECT3","EXAM1"],
+
+  "measurements":
+  [
+    "pass_rate",
+    "student_satisfaction"
+  ]
+,
+  "activity_data":[
+    "student_results",
+    "student_satisifacton"
+  ],
+  "related_data":[
+    "course.student_satisifaction",
+    "course_mark"
+  ],
+  "actions":[
+    {
+      "action_definition":{
+        "measure":"student_results",
+        "calculation":"<",
+        "questions":[
+          {
+            "question":"Are the prereqs wrong?"
+          }
+        ],
+        "intervention":"Change prereqs"
       }
-   ]
+    }
+  ]
 }
-}
+
