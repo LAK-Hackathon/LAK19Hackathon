@@ -1,16 +1,12 @@
 {
     "curriculum_object_id": "COURSE1",
     "description": {
-        "type": "course",
-      "duration":"P90M",
-      "active":false,
-      "digital":false,
-      "group":false,
-      "scheduled":true,
+       "type": "course",
+      "duration":"P10W",
       "optional":true,
       "core":true,
-        "name": "Database Fundamentals",
-        "learning_objectives": [
+       "name": "Database Fundamentals",
+       "learning_objectives": [
             "List and explain the fundamental concepts of a relational database system.",
             "Utilize a wide range of features available in a DBMS package.",
             "Analyze database requirements and determine the entities involved in the system and their relationship to one another.",
